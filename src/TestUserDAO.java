@@ -89,7 +89,7 @@ public class TestUserDAO {
 		}
 	}
 	
-	//演習⑨パスワードで指定
+	//演習⑨パスワードで指定して表示
 	public void selectByPassword(String password) {
 		DBConnector db = new DBConnector();
 		Connection con = db.getConnection();
